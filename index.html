@@ -5,10 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Lightsaber Crystal Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    
+
 </head>
 <body>
-    
+    <div id = "header">
+        <h1>Lightsaber Crystal Collector</h1>
+    </div>
+    <div id = "instructions">
+        <p>The Empire needs your help.</p>
+        <p>As an Imperial Agent, your job is to round up and destory as many lightsaber crystals as you can in compliance with Order 66 and the destruction of the Jedi.</p>
+        <p>The catch: destroying lightsaber crystals requires massive amounts of energy and the machine can only destroy a specific number of crystals at a time.</p>
+        <p>The machine will read you a specific number and can only operate if that specific number is met.</p>
+        <p>Each lightsaber crystal color holds a specific energy value.</p>
+        <p>Using your vast galactic knowledge, find out the energy value of each crystal and fill up the machine with the exact amount of crystals to meet the energy requirement.</p>
+        <p>Do not fail your mission: the Emporer is not as forgiving as I am.</p>
+    </div>
+    <div id = "machine"></div>
+    <div id = "wins"></div>
+    <div id = "losses"></div>
+    <div id = "crystals">
+        <img id = "blue" src = "assets/images/blue.png" width = "80 px">
+        <img id = "green" src = "assets/images/green.png" width = "80 px">
+        <img id = "yellow" src = "assets/images/yellow.png" width = "80 px">
+        <img id = "red" src = "assets/images/red.png"width = "80 px" >
+    </div>
+    <div id = "counter"></div>
+    <script src="assets/javascript/game.js"></script>
 </body>
 </html>
