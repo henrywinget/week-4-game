@@ -1,11 +1,6 @@
-/* #head {
-    background-image: url("../images/header.png")
-    width: 100%;
-    position: relative;
-    top: 0;
-    border-top: 2px groove red;
-    border-bottom: 2px groove red;
-} */
+#crystals {
+    margin: 0 5%;
+}
 
 h1 {
     position: relative;
@@ -28,16 +23,21 @@ h1 {
     
 }
 
-p {
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#instructions {
     background: rgba(0, 0, 0, 0.822);
     color: red;
-    text-align: : center;
+    text-align: center;
     font-size: 150%;
     line-height: 1.6;
     text-align: justify;
-    margin-right: 5%;
     padding: 10px;
-    text-indent: 50px;
+    text-indent: 20px;
+    margin-right: 
 }
 
 #machine {
@@ -72,6 +72,14 @@ p {
     font-weight: bold;
 }
 
+#wins, #losses {
+    margin-top: 20px;
+    margin-left: 5%;
+    height: 50px;
+    width: 100px;
+
+}
+
 .footer{
     position: relative;
     bottom: 0px;
@@ -79,7 +87,6 @@ p {
     border-top: 2px groove red;
     border-bottom: 2px groove red;
     text-align: center;
-    margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 20px;
     color: red;
