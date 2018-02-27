@@ -1,0 +1,100 @@
+/* #head {
+    background-image: url("../images/header.png")
+    width: 100%;
+    position: relative;
+    top: 0;
+    border-top: 2px groove red;
+    border-bottom: 2px groove red;
+} */
+
+h1 {
+    position: relative;
+    top: -20px;
+    text-align: center;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("../images/header.png");
+    width: 100%;
+    border-top: 2px groove red;
+    border-bottom: 2px groove red;
+    height: 100px;
+    padding-top: 25px;
+}
+
+#background {
+    position: absolute;
+    width: 100%;
+    z-index: -10;
+    
+}
+
+p {
+    background: rgba(0, 0, 0, 0.822);
+    color: red;
+    text-align: : center;
+    font-size: 150%;
+    line-height: 1.6;
+    text-align: justify;
+    margin-right: 5%;
+    padding: 10px;
+    text-indent: 50px;
+}
+
+#machine {
+    background: grey;
+    padding: 50px;
+    color: black;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#counter {
+    background: grey;
+    padding: 50px;
+    color: black;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#wins {
+    background: green;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#losses {
+    background: red;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.footer{
+    position: relative;
+    bottom: 0px;
+    background: black;
+    border-top: 2px groove red;
+    border-bottom: 2px groove red;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: red;
+    width: 100%;
+}
+
+form{
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+#github, #linkedin, #stack {
+    z-index: 10;
+    height: 30px;
+    width: 30px;
+    margin: 10px 2px;
+}
