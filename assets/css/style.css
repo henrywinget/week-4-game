@@ -32,13 +32,13 @@ h1 {
     z-index: -8;
     margin-top: 20px;
     margin-left: 50px;
-    animation: vadermove 2s infinite;
+    animation: vadermove .75s infinite;
     opacity: .6;
-    margin-bottom: -400px;
+    border-bottom: 40px solid white;
 }
 
 @keyframes vadermove {
-    50% {opacity: .8;}
+    50% {opacity: .7;}
 }
 
 #press-enter {
@@ -47,7 +47,7 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     animation: mymove 5s infinite;
     opacity: 0;
-    margin-top: 230px;
+    margin-top: 120px;
     position: absolute;
 }
 
@@ -65,14 +65,18 @@ h1 {
 }
 
 #instructions {
-    background: rgba(0, 0, 0, 0.822);
-    color: red;
+    background: rgba(67, 79, 247, 0.664);
+    color: white;
     text-align: center;
     font-size: 150%;
     line-height: 1.6;
     text-align: justify;
     padding: 10px;
     text-indent: 20px;
+    animation: vadermove 5s infinite;
+    opacity: .6;
+    border: 10px groove white;
+    margin-bottom: 10px;
 }
 
 #machine {
