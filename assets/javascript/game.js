@@ -6,7 +6,6 @@ var wins = 0;
 var losses = 0;
 
 //Declares variable values for the beginning of the game,
-// also changes the 'darth vader' image to the game images!
 var beginGame = function (){
     for (var i = 0; i < crystals.length; i++) {
         //Creates a random number in between 21 and 120 for the user to compare
@@ -14,18 +13,12 @@ var beginGame = function (){
         //Creates random nunber between 1 and 10 for the crystals. 
         crystals[i] = Math.floor(Math.random() * 9 + 1);
         crystalTotal = 0;
+        //Shows empty amount for the energy reading
         $("#counter").text("Energy reading: ");
     };
 };
 
-// myAudio = new Audio("../week-4-game/assets/audio/vader.wav"); 
-// myAudio.addEventListener('ended', function() {
-//     this.currentTime = 0;
-//     this.play();
-// }, false);
-// myAudio.play();
-
-//When enter is pressed, Vader and 'press enter to play' become hidden
+//When enter is pressed, audio stops, + Vader and 'press enter to play' become hidden
 $(window).keypress(function (e) {
     if (e.keyCode === 13) {
       $("#vader").css("visibility","hidden");
@@ -35,11 +28,13 @@ $(window).keypress(function (e) {
     }
   });
 
-console.log(machineNumber);
-console.log(crystals[0]);
-console.log(crystals[1]);
-console.log(crystals[2]);
-console.log(crystals[3]);
+// Un-hide to show stats in the console!
+//---------------------------------
+// console.log(machineNumber);
+// console.log(crystals[0]);
+// console.log(crystals[1]);
+// console.log(crystals[2]);
+// console.log(crystals[3]);
 
 //Creates HTML for the machine
 $(document).ready(function (){
