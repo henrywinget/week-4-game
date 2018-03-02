@@ -8,10 +8,10 @@ var losses = 0;
 //Declares variable values for the beginning of the game,
 var beginGame = function (){
     for (var i = 0; i < crystals.length; i++) {
-        //Creates a random number in between 21 and 120 for the user to compare
-        machineNumber = Math.floor(Math.random() * 99 + 21);
-        //Creates random nunber between 1 and 10 for the crystals. 
-        crystals[i] = Math.floor(Math.random() * 9 + 1);
+        //Creates a random number in between 19 and 120 for the user to compare
+        machineNumber = Math.floor(Math.random() * 101 + 19);
+        //Creates random nunber between 1 and 12 for the crystals. 
+        crystals[i] = Math.floor(Math.random() * 11 + 1);
         crystalTotal = 0;
         //Shows empty amount for the energy reading
         $("#counter").text("Energy reading: ");
