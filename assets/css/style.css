@@ -6,11 +6,11 @@ h1 {
     position: relative;
     top: -20px;
     text-align: center;
-    color: red;
+    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: url("../images/header.png");
     width: 100%;
-    border-top: 2px groove red;
+    /* border-top: 2px groove red; */
     border-bottom: 2px groove red;
     height: 100px;
     padding-top: 25px;
@@ -124,11 +124,11 @@ h1 {
     bottom: 0px;
     background: black;
     border-top: 2px groove red;
-    border-bottom: 2px groove red;
+    /* border-bottom: 2px groove red; */
     text-align: center;
     padding-top: 50px;
     padding-bottom: 20px;
-    color: red;
+    color: white;
     width: 100%;
 }
 
