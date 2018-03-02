@@ -30,11 +30,11 @@ h1 {
 #vader {
     position: absolute;
     z-index: -8;
-    margin-top: 20px;
+    margin-top: 45px;
     margin-left: 50px;
     animation: vadermove .75s infinite;
     opacity: .6;
-    border-bottom: 40px solid white;
+    /* border-bottom: 40px solid white; */
 }
 
 @keyframes vadermove {
@@ -47,7 +47,7 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     animation: mymove 5s infinite;
     opacity: 0;
-    margin-top: 120px;
+    margin-top: 140px;
     position: absolute;
 }
 
